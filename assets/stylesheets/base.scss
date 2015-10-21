@@ -1,6 +1,9 @@
 @import "bourbon/bourbon";
 @import "reset";
 
+$orange: rgba(255,170,92,1);
+$pink: #ED8E6D;
+
 @mixin clearfix {
   &:after {
     content: "";
@@ -73,10 +76,12 @@ html, body {
   width: 20em;
   margin: 0 auto;
   text-align: center;
-}
 
-$orange: rgba(255,170,92,1);
-$pink: #ED8E6D;
+  .link {
+    color: $orange;
+    text-decoration: none;
+  }
+}
 
 .button {
   display: block;

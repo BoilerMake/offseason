@@ -118,6 +118,9 @@ html, body {
   width: 20em;
   margin: 0 auto;
   text-align: center; }
+  .description .link {
+    color: #ffaa5c;
+    text-decoration: none; }
 
 .button {
   display: block;
