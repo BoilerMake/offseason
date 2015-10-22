@@ -120,6 +120,7 @@ html, body {
   text-align: center; }
   .description .link {
     color: #ffaa5c;
+    font-weight: 400;
     text-decoration: none; }
 
 .button {

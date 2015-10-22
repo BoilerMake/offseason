@@ -41,7 +41,7 @@ var updateSquares = function() {
       squares[i].y = -40;
     }
     sctx.fillStyle = "rgba(255,255,255,"+squares[i].opacity+")";
-    sctx.fillRect(squares[i].x + xOffset/(200*(1/squares[i].size))*2, squares[i].y + yOffset/(200*(1/squares[i].size))*2, tempSize*2, tempSize*2);
+    sctx.fillRect(squares[i].x + xOffset/(200*(1/squares[i].size))*2, squares[i].y, tempSize*2, tempSize*2);
   }
 }
 
